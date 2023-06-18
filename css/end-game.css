@@ -1,0 +1,41 @@
+.end-game {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.stop-scroll {
+  overflow: hidden;
+}
+
+.end-game-descr {
+  font-size: 80px;
+  color: black;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  margin-bottom: 100px;
+}
+
+.back-to-menu {
+  padding: 20px 100px;
+  /* background-color: rgb(245, 222, 179); */
+  background: linear-gradient(to left, wheat 50%, orange 50%) right;
+  background-size: 200% 100%;
+  font-size: 40px;
+  color: black;
+  border: 3px solid black;
+  border-radius: 10px;
+  transition: background-position .15s ease-in-out;
+}
+
+.back-to-menu:hover {
+  background-position: left;
+}

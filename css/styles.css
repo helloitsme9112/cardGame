@@ -1,0 +1,9 @@
+@import url('normalize.css');
+@import url('global.css');
+@import url('menu-generic.css');
+@import url('card-generic.css');
+@import url('card-specified.css');
+@import url('game-generic.css');
+@import url('game-specified.css');
+@import url('closed-state.css');
+@import url('end-game.css');

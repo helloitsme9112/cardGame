@@ -1,0 +1,28 @@
+.width2 {
+  width: 20%;
+  height: 700px;
+  font-size: 80px;
+}
+
+.width4 {
+  width: 20%;
+  height: 250px;
+  background-position: 50% 10%;
+  font-size: 80px;
+}
+
+.width6 {
+  width: 15%;
+  background-position: 50% 85%;
+  font-size: 70px;
+}
+
+.width8 {
+  width: 6%;
+  background-position: 50% 85%;
+}
+
+.width10 {
+  font-size: 40px;
+  width: 4%;
+}
